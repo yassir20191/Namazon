@@ -52,6 +52,7 @@ public class Namazon {
         Vendor vendorAccount = new Vendor(brandName, firstName, lastName, email, passWord);
         vendors.add(vendorAccount);
         return vendorAccount;
+        
     }
 
     public Customer signUpAsCustomer(String firstName, String lastName, String email, String passWord) {
